@@ -1,0 +1,18 @@
+{
+		  "compilerOptions": {
+			"jsx": "preserve",
+			"target": "ES6",
+			"module": "ES6",
+			"allowJs": true,
+			"outDir": "./dist",
+			"rootDir": "./src",
+			"esModuleInterop": true,
+			"lib": ["ES6"], // Only include ES6 library
+			"types": ["./node_modules/types-for-adobe/InDesign/2021/index.d.ts"], // Use only Adobe's types
+			"skipLibCheck": true // Temporary fix for type conflicts
+		  },
+		  "include": ["src/**/*"]
+		}
+
+
+    

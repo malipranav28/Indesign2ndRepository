@@ -1,0 +1,11 @@
+{
+		  "name": "INDESIGN2NDREPOSITORY",
+		  "scripts": {
+			"build": "tsc",
+			"watch": "tsc --watch"
+		  },
+		  "devDependencies": {
+			"types-for-adobe": "^7.2.2",
+			"typescript": "^5.7.3"
+		  }
+		}

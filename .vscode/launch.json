@@ -1,0 +1,13 @@
+{
+	  "version": "0.2.0",
+	  "configurations": [
+		{
+		  "type": "extendscript-debug",
+		  "request": "launch",
+		  "name": "Launch Script in ExtendScript Engine",
+		  "hostAppSpecifier": "indesign-20.064", // the application to run the script in
+		  "script": "${file}", // the ".JSX" file must be open and in-focus
+		  "engineName": "main" // the ".JSX" file must contain a main function to run
+		}
+	  ]
+	}
